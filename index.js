@@ -4,8 +4,9 @@ let header = document.querySelector('#page-header')
 header.style.textAlign ="left"
 let dogImages = document.querySelectorAll('.dog-image')
 for (let i =0; i <dogImages.length; i++){
-    dogImages[i].style.borderRadius = '10px'
-    
+    dogImages[i].style.borderRadius = '50%'
+    dogImages[1].style.filter = 'grayscale(80%)'
+    dogImages[1].style.transform = 'rotate(180deg)'
 }
 let dogNames =document.querySelectorAll('.dog-name')
 for (let i=0 ; i< dogNames.length ; i++){
